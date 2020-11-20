@@ -1,0 +1,5 @@
+'-verbose'
+'-g'
+'-d'
+'/home/rui/Documents/Benchmark'
+'Dict_example.java'

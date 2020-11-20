@@ -1,0 +1,171 @@
+[28780][      debug] Loading models took 36.648ms
+[28781][      debug] Sqlite write daemon: starting up
+[28781][      debug] Sqlite write daemon: set up complete, waiting for connections
+[28781][      debug] Sqlite write daemon: received command Handshake
+[28781][      debug] Sqlite write daemon: closing connection
+[28781][      debug] Sqlite write daemon: received command MarkAllSourceFilesStale
+[28781][      debug] Sqlite write daemon: closing connection
+[28780][environment] CWD = /home/rui/Documents/Benchmark
+[28780][environment] No .inferconfig file found
+[28780][environment] Project root = /home/rui/Documents/Benchmark
+[28780][environment] INFER_ARGS =   @/tmp/args.tmp.f9582d  ++Contents of '/tmp/args.tmp.f9582d':
+[28780][environment]                                         -g --data-usage-check-only
+[28780][environment]                                       
+[28780][environment] 
+[28780][environment] command line arguments:   infer -g --data-usage-check-only -- javac
+[28780][environment]                           Dict_example.java
+[28780][environment] Available memory at startup: 4218 MB
+[28780][environment] Active checkers: data-usage-check (Java)
+[28780][   progress] Logs in /home/rui/Documents/Benchmark/infer-out/logs
+[28780][environment] Scheduler: file
+[28780][environment] Cores used: 4
+[28780][environment] Infer version v1.0.0-03179692d
+[28780][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[28780][environment] Driver mode:
+[28780][environment] Javac driver mode:
+[28780][environment] prog = 'javac'
+[28780][environment] args =   Dict_example.java
+[28780][   progress] Capturing in javac mode...
+[28780][      debug] Current working directory: '/home/rui/Documents/Benchmark'
+[28780][      debug] Trying to execute: javac '-J-Duser.language=en' '@/home/rui/Documents/Benchmark/infer-out/tmp/javac_args.tmp.0e30eb' 2>'/home/rui/Documents/Benchmark/infer-out/tmp/javac.tmp.451520.out'
+[28780][      debug] *** Success. Logs:
+[28780][      debug] Translating 1 source files (1 classes)
+[28780][      debug] loading program ... done
+[28780][      debug] 
+[28780][      debug] filename: Dict_example.java (Dict_example.java)
+[28780][      debug] set_java_location Dict_example with location Dict_example.java:2:6
+[28780][      debug] 	classname: Dict_example
+[28780][      debug] Java location Dict_example -> Dict_example.java:2:6
+[28781][      debug] Sqlite write daemon: received command ReplaceAttributes
+[28781][      debug] Sqlite write daemon: closing connection
+[28781][      debug] Sqlite write daemon: received command ReplaceAttributes
+[28781][      debug] Sqlite write daemon: closing connection
+[28781][      debug] Sqlite write daemon: received command AddSourceFile
+[28781][      debug] Sqlite write daemon: closing connection
+[28780][      debug] writing new global tenv
+[28780][      debug] Tenv.store: global tenv has size 9960 bytes.
+[28780][      debug] Tenv.store: canonicalized tenv has size 1400 bytes.
+[28780][      debug] done capturing all files
+[28780][      debug] GC stats for capture:
+[28780][      debug]   minor_words: 2.01188e+06
+[28780][      debug]   promoted_words: 377121
+[28780][      debug]   major_words: 392634
+[28780][      debug]   minor_collections: 2
+[28780][      debug]   major_collections: 0
+[28780][      debug]   compactions: 0
+[28780][      debug]   top_heap_words: 1324032
+[28780][      debug]   
+[28781][      debug] Sqlite write daemon: received command DeleteAllSpecs
+[28781][      debug] Sqlite write daemon: closing connection
+[28780][environment] Parallel jobs: 4
+[28780][   progress] Found 1 source file to analyze in /home/rui/Documents/Benchmark/infer-out
+[28802][   progress] Dict_example.java starting
+[28781][      debug] Sqlite write daemon: received command StoreSpec
+[28781][      debug] Sqlite write daemon: closing connection
+[28802][      debug] Elapsed analysis time: Dict_example.<init>(): 33.962ms
+[28802][      debug] unchanged
+
+[28802][      debug] Dict_example.java:20: ERROR: Variable not used Variable not used: k
+[28802][      debug] 
+[28802][      debug] 
+[28802][      debug] Dict_example.java:14: ERROR: Variable not used Variable not used: v2
+[28802][      debug] 
+[28802][      debug] 
+[28802][      debug] Dict_example.java:14: ERROR: Variable not used Variable not used: i
+[28802][      debug] 
+[28802][      debug] 
+[28802][      debug] Dict_example.java:20: ERROR: Variable not used Variable not used: v
+[28802][      debug] 
+[28802][      debug] 
+[28802][      debug] Dict_example.java:18: ERROR: Variable not used Variable not used: d
+[28802][      debug] 
+[28802][      debug] 
+[28802][      debug] Dict_example.java:8: ERROR: Variable not used Variable not used: v1
+[28802][      debug] 
+[28802][      debug] [28781][      debug] Sqlite write daemon: received command StoreSpec
+[28781][      debug] Sqlite write daemon: closing connection
+
+[28802][   progress] Dict_example.java DONE
+[28780][      debug] Backend stats:
+[28780][      debug]   summary_file_try_load= 37
+[28780][      debug]   summary_read_from_disk= 0
+[28780][      debug]   summary_cache_hits= 748 (95%)
+[28780][      debug]   summary_cache_misses= 37
+[28780][      debug]   ondemand_procs_analyzed= 2
+[28780][      debug]   ondemand_local_cache_hits= 0 (0%)
+[28780][      debug]   ondemand_local_cache_misses= 2
+[28780][      debug]   proc_locker_lock_time_user= 0.00000000
+[28780][      debug]   proc_locker_lock_time_sys= 0.00000000
+[28780][      debug]   proc_locker_lock_time_wall= 0.00000000
+[28780][      debug]   proc_locker_unlock_time_user= 0.00000000
+[28780][      debug]   proc_locker_unlock_time_sys= 0.00000000
+[28780][      debug]   proc_locker_unlock_time_wall= 0.00000000
+[28780][      debug]   restart_scheduler_useful_time_user= 0.00000000
+[28780][      debug]   restart_scheduler_useful_time_sys= 0.00000000
+[28780][      debug]   restart_scheduler_useful_time_wall= 0.00000000
+[28780][      debug]   restart_scheduler_total_time_user= 0.00000000
+[28780][      debug]   restart_scheduler_total_time_sys= 0.00000000
+[28780][      debug]   restart_scheduler_total_time_wall= 0.00000000
+[28780][      debug]   
+[28780][      debug] GC stats for backend_stats.gc_stats_add.:
+[28780][      debug]   minor_words: 9.76944e+06
+[28780][      debug]   promoted_words: 99305
+[28780][      debug]   major_words: 224681
+[28780][      debug]   minor_collections: 11
+[28780][      debug]   major_collections: 2
+[28780][      debug]   compactions: 0
+[28780][      debug]   top_heap_words: 5296128
+[28780][      debug]   
+[28780][      debug] GC stats for backend_stats.gc_stats_max.:
+[28780][      debug]   minor_words: 9.76914e+06
+[28780][      debug]   promoted_words: 99305
+[28780][      debug]   major_words: 224681
+[28780][      debug]   minor_collections: 11
+[28780][      debug]   major_collections: 2
+[28780][      debug]   compactions: 0
+[28780][      debug]   top_heap_words: 1324032
+[28780][      debug]   
+[28780][      debug] Average over 4 processes
+[28780][      debug] GC stats for backend_stats.gc_stats_average.:
+[28780][      debug]   minor_words: 2.44236e+06
+[28780][      debug]   promoted_words: 24826.2
+[28780][      debug]   major_words: 56170.2
+[28780][      debug]   minor_collections: 2
+[28780][      debug]   major_collections: 0
+[28780][      debug]   compactions: 0
+[28780][      debug]   top_heap_words: 1324032
+[28780][      debug]   
+[28780][      debug] Analysis phase finished in 472ms
+[28780][      debug] backend_stats.scheduler_process_analysis_time_user= 0.03170800
+[28780][      debug] backend_stats.scheduler_process_analysis_time_sys= 0.01208200
+[28780][      debug] backend_stats.scheduler_process_analysis_time_wall= 0.47189070
+[28780][      debug] GC stats for analysis_scheduler:
+[28780][      debug]   minor_words: 207873
+[28780][      debug]   promoted_words: 67423
+[28780][      debug]   major_words: 76129
+[28780][      debug]   minor_collections: 1
+[28780][      debug]   major_collections: 2
+[28780][      debug]   compactions: 1
+[28780][      debug]   top_heap_words: 1324032
+[28780][      debug]   
+[28780][      debug] GC stats for report:
+[28780][      debug]   minor_words: 45497
+[28780][      debug]   promoted_words: 0
+[28780][      debug]   major_words: 300
+[28780][      debug]   minor_collections: 0
+[28780][      debug]   major_collections: 0
+[28780][      debug]   compactions: 0
+[28780][      debug]   top_heap_words: 1324032
+[28780][      debug]   
+[28780][      debug] GC stats for main_process_full:
+[28780][      debug]   minor_words: 4.6385e+06
+[28780][      debug]   promoted_words: 709239
+[28780][      debug]   major_words: 1.32067e+06
+[28780][      debug]   minor_collections: 10
+[28780][      debug]   major_collections: 5
+[28780][      debug]   compactions: 2
+[28780][      debug]   top_heap_words: 1324032
+[28780][      debug]   
+[28781][      debug] Sqlite write daemon: received command Terminate
+[28781][      debug] Sqlite write daemon: closing connection
+[28781][      debug] Sqlite write daemon: terminating

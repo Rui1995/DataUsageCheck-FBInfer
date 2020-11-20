@@ -1,0 +1,57 @@
+#0
+Dict_example.java:18: error: Variable not used
+  Variable not used: d.
+  16.   			int k;
+  17.   			for (k = 0; k < d.length; k++){
+  18. > 				int v= d[k];
+  19.   				if (k>=3){
+  20.   					d[k-2] = v;
+
+#1
+Dict_example.java:14: error: Variable not used
+  Variable not used: i.
+  12.   			//i1 =i; //i = i ??
+  13.   			if (Arrays.asList(d).contains(i)){    //from stackoverflow
+  14. > 				v2 = d[i];
+  15.   			}
+  16.   			int k;
+
+#2
+Dict_example.java:20: error: Variable not used
+  Variable not used: k.
+  18.   				int v= d[k];
+  19.   				if (k>=3){
+  20. > 					d[k-2] = v;
+  21.   				}
+  22.   			}
+
+#3
+Dict_example.java:20: error: Variable not used
+  Variable not used: v.
+  18.   				int v= d[k];
+  19.   				if (k>=3){
+  20. > 					d[k-2] = v;
+  21.   				}
+  22.   			}
+
+#4
+Dict_example.java:8: error: Variable not used
+  Variable not used: v1.
+   6.   		d[4] = 1;
+   7.   		d[v1] = 7;
+   8. > 		d[1] = v1;
+   9.   		int v2 = d[3];
+  10.   		d[2] = 3 + v2;
+
+#5
+Dict_example.java:14: error: Variable not used
+  Variable not used: v2.
+  12.   			//i1 =i; //i = i ??
+  13.   			if (Arrays.asList(d).contains(i)){    //from stackoverflow
+  14. > 				v2 = d[i];
+  15.   			}
+  16.   			int k;
+
+Found 6 issues
+            Issue Type(ISSUED_TYPE_ID): #
+  Variable not used(VARIABLE_NOT_USED): 6

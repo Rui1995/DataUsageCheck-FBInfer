@@ -1,0 +1,50 @@
+class Dict_example
+fields: {}
+statics: {}
+supers: {
+           class java.lang.Object
+         }
+objc_protocols: {}
+methods: {
+            void Dict_example.test1(int) 
+            Dict_example.<init>()
+          }
+exported_obj_methods: {}
+annots: {<>}
+java_class_info: {[Some {kind= NormalClass; loc= [Some line 2, column 6]}]}
+dummy: falseclass java.util.List
+fields: {}
+statics: {}
+supers: {}
+objc_protocols: {}
+methods: {}
+exported_obj_methods: {}
+annots: {<>}
+java_class_info: {[None]}
+dummy: trueclass java.lang.Object
+fields: {}
+statics: {}
+supers: {}
+objc_protocols: {}
+methods: {}
+exported_obj_methods: {}
+annots: {<>}
+java_class_info: {[None]}
+dummy: trueclass java.lang.Integer
+fields: {}
+statics: {}
+supers: {}
+objc_protocols: {}
+methods: {}
+exported_obj_methods: {}
+annots: {<>}
+java_class_info: {[None]}
+dummy: trueclass java.util.Arrays
+fields: {}
+statics: {}
+supers: {}
+objc_protocols: {}
+methods: {}
+exported_obj_methods: {}
+annots: {<>}
+java_class_info: {[None]}

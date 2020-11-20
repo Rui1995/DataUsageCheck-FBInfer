@@ -1,0 +1,487 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Dict_example.test1(int):void.9b8e6a3f72bcbab94aac724e0c47f978_node10</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+body { background-color:#fff; color:#000; font-family:Helvetica, sans-serif; font-size:10pt }
+h1 { font-size:14pt }
+.code { border-collapse:collapse; width:100%; font-family: "Andale Mono", monospace; font-size:10pt; line-height: 1.2em }
+.color_black { color: black }
+.color_blue { color: blue }
+.color_green { color: green }
+.color_orange { color: orange }
+.color_red { color: red }
+.line { border-left: 3px solid #ccc; padding-left: 1ex; white-space: pre; }
+.msg { background-color:#fff8b4; color:#000; float:left; font-family:Helvetica, sans-serif; font-size: smaller; font-weight: bold; margin-bottom:10px; margin-top:10px; max-width:60em; padding:0.5em 1ex 0.5em 1ex; -webkit-border-radius:5px; -webkit-box-shadow:1px 1px 7px #000; white-space: pre-wrap; word-wrap: break-word; }
+.num { background-color:#eee; color:#444; font-size: smaller; padding-right:2ex; text-align:right; width:2.5em; }
+.dangling { background-color:white; color: gray; }
+.visited { background-color:LemonChiffon; color: darkmagenta; }
+.tooltip { display: none; background-color:#FFF0F0; border: 2px solid #F00; font-weight: normal; left:10em; padding: 2px; position: absolute; top: -1em; -webkit-border-radius:5px; -webkit-box-shadow:1px 1px 7px #000; z-index: 1}
+.with_tooltip { position: relative; }
+.with_tooltip:hover .tooltip, .visited:hover .tooltip { display: block; }
+</style>
+</head>
+<body>
+<center><h1>Cfg Node <a href="./../../Dict_example.java.1056a52984bea6e420fa9ec36b6a2d8f.html#LINE10">10</a></h1></center>PROC: <a href="./../Dict_example.test1%28int%29%3Avoid.9b8e6a3f72bcbab94aac724e0c47f978.html">void Dict_example.test1(int)</a> LINE: <a href="./../../Dict_example.java.1056a52984bea6e420fa9ec36b6a2d8f.html#LINE10">10</a>
+<br>PREDS:
+<a href="./../nodes/Dict_example.test1%28int%29%3Avoid.9b8e6a3f72bcbab94aac724e0c47f978_node9.html"><span class='visited with_tooltip'>N_9<span class='tooltip'>node9 preds:8 succs:10 exn:3 </span></span></a><br>SUCCS:
+<a href="./../nodes/Dict_example.test1%28int%29%3Avoid.9b8e6a3f72bcbab94aac724e0c47f978_node11.html"><span class='dangling with_tooltip'>N_11<span class='tooltip'>node11 preds:10 succs:13 exn:3 
+NOT VISITED</span></span></a> <a href="./../nodes/Dict_example.test1%28int%29%3Avoid.9b8e6a3f72bcbab94aac724e0c47f978_node12.html"><span class='visited with_tooltip'>N_12<span class='tooltip'>node12 preds:10 succs:31 exn:3 </span></span></a><br>EXN:
+<a href="./../nodes/Dict_example.test1%28int%29%3Avoid.9b8e6a3f72bcbab94aac724e0c47f978_node3.html"><span class='visited with_tooltip'>N_3<span class='tooltip'>node3 preds: succs:2 exn:2 </span></span></a><br>
+<LISTING class='color_green'>n$9=*&amp;d:int[_*_](*) [line 10];
+n$10=*&amp;v2:int [line 10];
+*n$9[2]:int=(3 + n$10) [line 10];
+</LISTING>
+<hr width="100%">
+<a name="session48" href="./../nodes/Dict_example.test1%28int%29%3Avoid.9b8e6a3f72bcbab94aac724e0c47f978_node10.html#session48">node10#session48</a>(<a href="./../../Dict_example.java.1056a52984bea6e420fa9ec36b6a2d8f.html#LINE10">10</a>) [compute pre] liveness 10
+<LISTING class='color_black'>JOIN
+
+LEFT:   { i }
+RIGHT:  { }
+RESULT: = LEFT
+
+</LISTING>
+<hr width="100%">
+<a name="session49" href="./../nodes/Dict_example.test1%28int%29%3Avoid.9b8e6a3f72bcbab94aac724e0c47f978_node10.html#session49">node10#session49</a>(<a href="./../../Dict_example.java.1056a52984bea6e420fa9ec36b6a2d8f.html#LINE10">10</a>) [exec] liveness 10
+<LISTING class='color_black'>PRE STATE:
+{ i }
+
+INSTR=  *n$9[2]:int=(3 + n$10) [line 10]; 
+
+STATE:
+{ n$9, n$10, i }
+
+INSTR=  n$10=*&amp;v2:int [line 10]; 
+
+STATE:
+{ n$9, v2, i }
+
+INSTR=  n$9=*&amp;d:int[_*_](*) [line 10]; 
+
+STATE:
+{ v2, i, d }
+
+</LISTING>
+<hr width="100%">
+<a name="session152" href="./../nodes/Dict_example.test1%28int%29%3Avoid.9b8e6a3f72bcbab94aac724e0c47f978_node10.html#session152">node10#session152</a>(<a href="./../../Dict_example.java.1056a52984bea6e420fa9ec36b6a2d8f.html#LINE10">10</a>) [compute pre] liveness 10
+<LISTING class='color_black'>JOIN
+
+LEFT:   { i, d }
+RIGHT:  { i }
+RESULT: = LEFT
+
+JOIN
+
+LEFT:   { i, d }
+RIGHT:  { }
+RESULT: = LEFT
+
+</LISTING>
+<hr width="100%">
+<a name="session153" href="./../nodes/Dict_example.test1%28int%29%3Avoid.9b8e6a3f72bcbab94aac724e0c47f978_node10.html#session153">node10#session153</a>(<a href="./../../Dict_example.java.1056a52984bea6e420fa9ec36b6a2d8f.html#LINE10">10</a>) [exec] liveness 10
+<LISTING class='color_black'>PRE STATE:
+{ i, d }
+
+INSTR=  *n$9[2]:int=(3 + n$10) [line 10]; 
+
+STATE:
+{ n$9, n$10, i, d }
+
+INSTR=  n$10=*&amp;v2:int [line 10]; 
+
+STATE:
+{ n$9, v2, i, d }
+
+INSTR=  n$9=*&amp;d:int[_*_](*) [line 10]; 
+
+STATE:
+{ v2, i, d }
+
+</LISTING>
+<hr width="100%">
+<a name="session171" href="./../nodes/Dict_example.test1%28int%29%3Avoid.9b8e6a3f72bcbab94aac724e0c47f978_node10.html#session171">node10#session171</a>(<a href="./../../Dict_example.java.1056a52984bea6e420fa9ec36b6a2d8f.html#LINE10">10</a>) [compute pre] nullify
+<LISTING class='color_black'></LISTING>
+<hr width="100%">
+<a name="session172" href="./../nodes/Dict_example.test1%28int%29%3Avoid.9b8e6a3f72bcbab94aac724e0c47f978_node10.html#session172">node10#session172</a>(<a href="./../../Dict_example.java.1056a52984bea6e420fa9ec36b6a2d8f.html#LINE10">10</a>) [exec] nullify
+<LISTING class='color_black'>PRE STATE:
+({ v2, d },{ _, n$6, n$8 })
+
+INSTR=  n$9=*&amp;d:int[_*_](*) [line 10]; 
+
+STATE:
+({ n$9, v2, d },{ _, n$6, n$8 })
+
+INSTR=  n$10=*&amp;v2:int [line 10]; 
+
+STATE:
+({ n$9, n$10, v2, d },{ _, n$6, n$8 })
+
+INSTR=  *n$9[2]:int=(3 + n$10) [line 10]; 
+
+STATE:
+({ d },{ n$9, n$10, v2 })
+
+</LISTING>
+<hr width="100%">
+<a name="session238" href="./../nodes/Dict_example.test1%28int%29%3Avoid.9b8e6a3f72bcbab94aac724e0c47f978_node10.html#session238">node10#session238</a>(<a href="./../../Dict_example.java.1056a52984bea6e420fa9ec36b6a2d8f.html#LINE10">10</a>) [compute pre] devirtualizer analysis 10
+<LISTING class='color_black'></LISTING>
+<hr width="100%">
+<a name="session239" href="./../nodes/Dict_example.test1%28int%29%3Avoid.9b8e6a3f72bcbab94aac724e0c47f978_node10.html#session239">node10#session239</a>(<a href="./../../Dict_example.java.1056a52984bea6e420fa9ec36b6a2d8f.html#LINE10">10</a>) [exec] devirtualizer analysis 10
+<LISTING class='color_black'>PRE STATE:
+{ }
+
+INSTR=  n$9=*&amp;d:int[_*_](*) [line 10]; 
+
+STATE UNCHANGED
+
+INSTR=  n$10=*&amp;v2:int [line 10]; 
+
+STATE UNCHANGED
+
+INSTR=  *n$9[2]:int=(3 + n$10) [line 10]; 
+
+STATE UNCHANGED
+
+INSTR=  NULLIFY(&amp;v2); [line 10]; 
+
+STATE UNCHANGED
+
+INSTR=  EXIT_SCOPE(n$9,n$10,v2); [line 10]; 
+
+STATE UNCHANGED
+
+</LISTING>
+<hr width="100%">
+<a name="session380" href="./../nodes/Dict_example.test1%28int%29%3Avoid.9b8e6a3f72bcbab94aac724e0c47f978_node10.html#session380">node10#session380</a>(<a href="./../../Dict_example.java.1056a52984bea6e420fa9ec36b6a2d8f.html#LINE10">10</a>) [exec] devirtualizer
+<LISTING class='color_black'></LISTING>
+<hr width="100%">
+<a name="session381" href="./../nodes/Dict_example.test1%28int%29%3Avoid.9b8e6a3f72bcbab94aac724e0c47f978_node10.html#session381">node10#session381</a>(<a href="./../../Dict_example.java.1056a52984bea6e420fa9ec36b6a2d8f.html#LINE10">10</a>) [exec] devirtualizer
+<LISTING class='color_black'></LISTING>
+<hr width="100%">
+<a name="session382" href="./../nodes/Dict_example.test1%28int%29%3Avoid.9b8e6a3f72bcbab94aac724e0c47f978_node10.html#session382">node10#session382</a>(<a href="./../../Dict_example.java.1056a52984bea6e420fa9ec36b6a2d8f.html#LINE10">10</a>) [exec] devirtualizer
+<LISTING class='color_black'></LISTING>
+<hr width="100%">
+<a name="session383" href="./../nodes/Dict_example.test1%28int%29%3Avoid.9b8e6a3f72bcbab94aac724e0c47f978_node10.html#session383">node10#session383</a>(<a href="./../../Dict_example.java.1056a52984bea6e420fa9ec36b6a2d8f.html#LINE10">10</a>) [exec] devirtualizer
+<LISTING class='color_black'></LISTING>
+<hr width="100%">
+<a name="session384" href="./../nodes/Dict_example.test1%28int%29%3Avoid.9b8e6a3f72bcbab94aac724e0c47f978_node10.html#session384">node10#session384</a>(<a href="./../../Dict_example.java.1056a52984bea6e420fa9ec36b6a2d8f.html#LINE10">10</a>) [exec] devirtualizer
+<LISTING class='color_black'></LISTING>
+<hr width="100%">
+<a name="session81" href="./../nodes/Dict_example.test1%28int%29%3Avoid.9b8e6a3f72bcbab94aac724e0c47f978_node10.html#session81">node10#session81</a>(<a href="./../../Dict_example.java.1056a52984bea6e420fa9ec36b6a2d8f.html#LINE10">10</a>) [compute pre] DataUsageCheck
+<LISTING class='color_black'>JOIN
+
+LEFT:   { _ -&gt; NOT_USED at line 13,
+          _ -&gt; NOT_USED at line 14,
+          _ -&gt; NOT_USED at line 17,
+          _ -&gt; NOT_USED at line 18,
+          n$11 -&gt; NOT_USED at line 11,
+          n$12 -&gt; NOT_USED at line 13,
+          n$13 -&gt; NOT_USED at line 13,
+          n$14 -&gt; NOT_USED at line 13,
+          n$15 -&gt; NOT_USED at line 13,
+          n$16 -&gt; NOT_USED at line 13,
+          n$17 -&gt; NOT_USED at line 13,
+          n$18 -&gt; NOT_USED at line 13,
+          n$19 -&gt; NOT_USED at line 13,
+          n$21 -&gt; NOT_USED at line 13,
+          n$22 -&gt; NOT_USED at line 13,
+          n$23 -&gt; NOT_USED at line 13,
+          n$24 -&gt; NOT_USED at line 14,
+          n$25 -&gt; NOT_USED at line 14,
+          n$27 -&gt; NOT_USED at line 14,
+          n$28 -&gt; NOT_USED at line 17,
+          n$29 -&gt; NOT_USED at line 17,
+          n$31 -&gt; NOT_USED at line 17,
+          n$32 -&gt; NOT_USED at line 18,
+          n$33 -&gt; NOT_USED at line 18,
+          n$35 -&gt; NOT_USED at line 20,
+          n$36 -&gt; NOT_USED at line 19,
+          n$37 -&gt; NOT_USED at line 20,
+          n$38 -&gt; NOT_USED at line 20,
+          n$39 -&gt; NOT_USED at line 20,
+          n$40 -&gt; NOT_USED at line 17,
+          $irvar3 -&gt; NOT_USED at line 13,
+          k -&gt; NOT_USED at line 20,
+          v2 -&gt; NOT_USED at line 14,
+          i -&gt; NOT_USED at line 14,
+          $irvar0 -&gt; NOT_USED at line 13,
+          v -&gt; NOT_USED at line 20,
+          d -&gt; NOT_USED at line 18,
+          $irvar1 -&gt; NOT_USED at line 13,
+          $irvar2 -&gt; NOT_USED at line 13,
+          this -&gt; NOT_USED at line -1 } 
+HASH:  
+MAP_VARS { $irvar3 -&gt; n$22,
+                                                            v2 -&gt; n$27,
+                                                            v -&gt; n$35,
+                                                            $irvar1 -&gt; n$12,
+                                                            $irvar2 -&gt; i }
+RIGHT:  { n$11 -&gt; NOT_USED at line 11,
+          i -&gt; NOT_USED at line 11,
+          this -&gt; NOT_USED at line -1 } 
+HASH:  
+MAP_VARS { }
+RESULT: { _ -&gt; NOT_USED at line 13,
+          _ -&gt; NOT_USED at line 14,
+          _ -&gt; NOT_USED at line 17,
+          _ -&gt; NOT_USED at line 18,
+          n$11 -&gt; NOT_USED at line 11,
+          n$12 -&gt; NOT_USED at line 13,
+          n$13 -&gt; NOT_USED at line 13,
+          n$14 -&gt; NOT_USED at line 13,
+          n$15 -&gt; NOT_USED at line 13,
+          n$16 -&gt; NOT_USED at line 13,
+          n$17 -&gt; NOT_USED at line 13,
+          n$18 -&gt; NOT_USED at line 13,
+          n$19 -&gt; NOT_USED at line 13,
+          n$21 -&gt; NOT_USED at line 13,
+          n$22 -&gt; NOT_USED at line 13,
+          n$23 -&gt; NOT_USED at line 13,
+          n$24 -&gt; NOT_USED at line 14,
+          n$25 -&gt; NOT_USED at line 14,
+          n$27 -&gt; NOT_USED at line 14,
+          n$28 -&gt; NOT_USED at line 17,
+          n$29 -&gt; NOT_USED at line 17,
+          n$31 -&gt; NOT_USED at line 17,
+          n$32 -&gt; NOT_USED at line 18,
+          n$33 -&gt; NOT_USED at line 18,
+          n$35 -&gt; NOT_USED at line 20,
+          n$36 -&gt; NOT_USED at line 19,
+          n$37 -&gt; NOT_USED at line 20,
+          n$38 -&gt; NOT_USED at line 20,
+          n$39 -&gt; NOT_USED at line 20,
+          n$40 -&gt; NOT_USED at line 17,
+          $irvar3 -&gt; NOT_USED at line 13,
+          k -&gt; NOT_USED at line 20,
+          v2 -&gt; NOT_USED at line 14,
+          i -&gt; NOT_USED at line 14,
+          $irvar0 -&gt; NOT_USED at line 13,
+          v -&gt; NOT_USED at line 20,
+          d -&gt; NOT_USED at line 18,
+          $irvar1 -&gt; NOT_USED at line 13,
+          $irvar2 -&gt; NOT_USED at line 13,
+          this -&gt; NOT_USED at line -1 } 
+HASH:  
+MAP_VARS { $irvar3 -&gt; n$22,
+                                                            v2 -&gt; n$27,
+                                                            v -&gt; n$35,
+                                                            $irvar1 -&gt; n$12,
+                                                            $irvar2 -&gt; i }
+
+</LISTING>
+<hr width="100%">
+<a name="session82" href="./../nodes/Dict_example.test1%28int%29%3Avoid.9b8e6a3f72bcbab94aac724e0c47f978_node10.html#session82">node10#session82</a>(<a href="./../../Dict_example.java.1056a52984bea6e420fa9ec36b6a2d8f.html#LINE10">10</a>) [exec] DataUsageCheck
+<LISTING class='color_black'>PRE STATE:
+{ _ -&gt; NOT_USED at line 13,
+  _ -&gt; NOT_USED at line 14,
+  _ -&gt; NOT_USED at line 17,
+  _ -&gt; NOT_USED at line 18,
+  n$11 -&gt; NOT_USED at line 11,
+  n$12 -&gt; NOT_USED at line 13,
+  n$13 -&gt; NOT_USED at line 13,
+  n$14 -&gt; NOT_USED at line 13,
+  n$15 -&gt; NOT_USED at line 13,
+  n$16 -&gt; NOT_USED at line 13,
+  n$17 -&gt; NOT_USED at line 13,
+  n$18 -&gt; NOT_USED at line 13,
+  n$19 -&gt; NOT_USED at line 13,
+  n$21 -&gt; NOT_USED at line 13,
+  n$22 -&gt; NOT_USED at line 13,
+  n$23 -&gt; NOT_USED at line 13,
+  n$24 -&gt; NOT_USED at line 14,
+  n$25 -&gt; NOT_USED at line 14,
+  n$27 -&gt; NOT_USED at line 14,
+  n$28 -&gt; NOT_USED at line 17,
+  n$29 -&gt; NOT_USED at line 17,
+  n$31 -&gt; NOT_USED at line 17,
+  n$32 -&gt; NOT_USED at line 18,
+  n$33 -&gt; NOT_USED at line 18,
+  n$35 -&gt; NOT_USED at line 20,
+  n$36 -&gt; NOT_USED at line 19,
+  n$37 -&gt; NOT_USED at line 20,
+  n$38 -&gt; NOT_USED at line 20,
+  n$39 -&gt; NOT_USED at line 20,
+  n$40 -&gt; NOT_USED at line 17,
+  $irvar3 -&gt; NOT_USED at line 13,
+  k -&gt; NOT_USED at line 20,
+  v2 -&gt; NOT_USED at line 14,
+  i -&gt; NOT_USED at line 14,
+  $irvar0 -&gt; NOT_USED at line 13,
+  v -&gt; NOT_USED at line 20,
+  d -&gt; NOT_USED at line 18,
+  $irvar1 -&gt; NOT_USED at line 13,
+  $irvar2 -&gt; NOT_USED at line 13,
+  this -&gt; NOT_USED at line -1 } 
+HASH:  
+MAP_VARS { $irvar3 -&gt; n$22,
+                                                    v2 -&gt; n$27,
+                                                    v -&gt; n$35,
+                                                    $irvar1 -&gt; n$12,
+                                                    $irvar2 -&gt; i }
+
+INSTR=  EXIT_SCOPE(n$9,n$10,v2); [line 10]; 
+
+STATE UNCHANGED
+
+INSTR=  NULLIFY(&amp;v2); [line 10]; 
+
+STATE UNCHANGED
+
+INSTR=  *n$9[2]:int=(3 + n$10) [line 10]; 
+
+STATE:
+{ _ -&gt; NOT_USED at line 13,
+  _ -&gt; NOT_USED at line 14,
+  _ -&gt; NOT_USED at line 17,
+  _ -&gt; NOT_USED at line 18,
+  n$9 -&gt; NOT_USED at line 10,
+  n$10 -&gt; NOT_USED at line 10,
+  n$11 -&gt; NOT_USED at line 11,
+  n$12 -&gt; NOT_USED at line 13,
+  n$13 -&gt; NOT_USED at line 13,
+  n$14 -&gt; NOT_USED at line 13,
+  n$15 -&gt; NOT_USED at line 13,
+  n$16 -&gt; NOT_USED at line 13,
+  n$17 -&gt; NOT_USED at line 13,
+  n$18 -&gt; NOT_USED at line 13,
+  n$19 -&gt; NOT_USED at line 13,
+  n$21 -&gt; NOT_USED at line 13,
+  n$22 -&gt; NOT_USED at line 13,
+  n$23 -&gt; NOT_USED at line 13,
+  n$24 -&gt; NOT_USED at line 14,
+  n$25 -&gt; NOT_USED at line 14,
+  n$27 -&gt; NOT_USED at line 14,
+  n$28 -&gt; NOT_USED at line 17,
+  n$29 -&gt; NOT_USED at line 17,
+  n$31 -&gt; NOT_USED at line 17,
+  n$32 -&gt; NOT_USED at line 18,
+  n$33 -&gt; NOT_USED at line 18,
+  n$35 -&gt; NOT_USED at line 20,
+  n$36 -&gt; NOT_USED at line 19,
+  n$37 -&gt; NOT_USED at line 20,
+  n$38 -&gt; NOT_USED at line 20,
+  n$39 -&gt; NOT_USED at line 20,
+  n$40 -&gt; NOT_USED at line 17,
+  $irvar3 -&gt; NOT_USED at line 13,
+  k -&gt; NOT_USED at line 20,
+  v2 -&gt; NOT_USED at line 14,
+  i -&gt; NOT_USED at line 14,
+  $irvar0 -&gt; NOT_USED at line 13,
+  v -&gt; NOT_USED at line 20,
+  d -&gt; NOT_USED at line 18,
+  $irvar1 -&gt; NOT_USED at line 13,
+  $irvar2 -&gt; NOT_USED at line 13,
+  this -&gt; NOT_USED at line -1 } 
+HASH:  
+MAP_VARS { $irvar3 -&gt; n$22,
+                                                    v2 -&gt; n$27,
+                                                    v -&gt; n$35,
+                                                    $irvar1 -&gt; n$12,
+                                                    $irvar2 -&gt; i }
+
+INSTR=  n$10=*&amp;v2:int [line 10]; 
+
+STATE:
+{ _ -&gt; NOT_USED at line 13,
+  _ -&gt; NOT_USED at line 14,
+  _ -&gt; NOT_USED at line 17,
+  _ -&gt; NOT_USED at line 18,
+  n$9 -&gt; NOT_USED at line 10,
+  n$10 -&gt; NOT_USED at line 10,
+  n$11 -&gt; NOT_USED at line 11,
+  n$12 -&gt; NOT_USED at line 13,
+  n$13 -&gt; NOT_USED at line 13,
+  n$14 -&gt; NOT_USED at line 13,
+  n$15 -&gt; NOT_USED at line 13,
+  n$16 -&gt; NOT_USED at line 13,
+  n$17 -&gt; NOT_USED at line 13,
+  n$18 -&gt; NOT_USED at line 13,
+  n$19 -&gt; NOT_USED at line 13,
+  n$21 -&gt; NOT_USED at line 13,
+  n$22 -&gt; NOT_USED at line 13,
+  n$23 -&gt; NOT_USED at line 13,
+  n$24 -&gt; NOT_USED at line 14,
+  n$25 -&gt; NOT_USED at line 14,
+  n$27 -&gt; NOT_USED at line 14,
+  n$28 -&gt; NOT_USED at line 17,
+  n$29 -&gt; NOT_USED at line 17,
+  n$31 -&gt; NOT_USED at line 17,
+  n$32 -&gt; NOT_USED at line 18,
+  n$33 -&gt; NOT_USED at line 18,
+  n$35 -&gt; NOT_USED at line 20,
+  n$36 -&gt; NOT_USED at line 19,
+  n$37 -&gt; NOT_USED at line 20,
+  n$38 -&gt; NOT_USED at line 20,
+  n$39 -&gt; NOT_USED at line 20,
+  n$40 -&gt; NOT_USED at line 17,
+  $irvar3 -&gt; NOT_USED at line 13,
+  k -&gt; NOT_USED at line 20,
+  v2 -&gt; NOT_USED at line 14,
+  i -&gt; NOT_USED at line 14,
+  $irvar0 -&gt; NOT_USED at line 13,
+  v -&gt; NOT_USED at line 20,
+  d -&gt; NOT_USED at line 18,
+  $irvar1 -&gt; NOT_USED at line 13,
+  $irvar2 -&gt; NOT_USED at line 13,
+  this -&gt; NOT_USED at line -1 } 
+HASH:  
+MAP_VARS { $irvar3 -&gt; n$22,
+                                                    v2 -&gt; n$27,
+                                                    v -&gt; n$35,
+                                                    $irvar1 -&gt; n$12,
+                                                    $irvar2 -&gt; i }
+
+INSTR=  n$9=*&amp;d:int[_*_](*) [line 10]; 
+
+STATE:
+{ _ -&gt; NOT_USED at line 13,
+  _ -&gt; NOT_USED at line 14,
+  _ -&gt; NOT_USED at line 17,
+  _ -&gt; NOT_USED at line 18,
+  n$9 -&gt; NOT_USED at line 10,
+  n$10 -&gt; NOT_USED at line 10,
+  n$11 -&gt; NOT_USED at line 11,
+  n$12 -&gt; NOT_USED at line 13,
+  n$13 -&gt; NOT_USED at line 13,
+  n$14 -&gt; NOT_USED at line 13,
+  n$15 -&gt; NOT_USED at line 13,
+  n$16 -&gt; NOT_USED at line 13,
+  n$17 -&gt; NOT_USED at line 13,
+  n$18 -&gt; NOT_USED at line 13,
+  n$19 -&gt; NOT_USED at line 13,
+  n$21 -&gt; NOT_USED at line 13,
+  n$22 -&gt; NOT_USED at line 13,
+  n$23 -&gt; NOT_USED at line 13,
+  n$24 -&gt; NOT_USED at line 14,
+  n$25 -&gt; NOT_USED at line 14,
+  n$27 -&gt; NOT_USED at line 14,
+  n$28 -&gt; NOT_USED at line 17,
+  n$29 -&gt; NOT_USED at line 17,
+  n$31 -&gt; NOT_USED at line 17,
+  n$32 -&gt; NOT_USED at line 18,
+  n$33 -&gt; NOT_USED at line 18,
+  n$35 -&gt; NOT_USED at line 20,
+  n$36 -&gt; NOT_USED at line 19,
+  n$37 -&gt; NOT_USED at line 20,
+  n$38 -&gt; NOT_USED at line 20,
+  n$39 -&gt; NOT_USED at line 20,
+  n$40 -&gt; NOT_USED at line 17,
+  $irvar3 -&gt; NOT_USED at line 13,
+  k -&gt; NOT_USED at line 20,
+  v2 -&gt; NOT_USED at line 14,
+  i -&gt; NOT_USED at line 14,
+  $irvar0 -&gt; NOT_USED at line 13,
+  v -&gt; NOT_USED at line 20,
+  d -&gt; NOT_USED at line 18,
+  $irvar1 -&gt; NOT_USED at line 13,
+  $irvar2 -&gt; NOT_USED at line 13,
+  this -&gt; NOT_USED at line -1 } 
+HASH:  
+MAP_VARS { $irvar3 -&gt; n$22,
+                                                    v2 -&gt; n$27,
+                                                    v -&gt; n$35,
+                                                    $irvar1 -&gt; n$12,
+                                                    $irvar2 -&gt; i }
+
+</LISTING>
