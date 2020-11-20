@@ -1,4 +1,4 @@
-##Data Usage Check
+##DataUsageCheck
 
 This analysis uses Abstract Interpretation to detect Unused Input Variables in Java programs.
 The analysis is built using [Infer.AI](http://fbinfer.com/) framework.
@@ -10,4 +10,4 @@ To install Infer please head to [Getting Started](http://fbinfer.com/docs/gettin
 After Infer is installed, inside the folder where the Java program to be analyzed is located, execute:
 "infer -g --data-usage-check-only -- javac JavaFileToBeTested.java" 
 
-For example, inside the [Benchmark](/Benchmark]) folder: "infer -g --data-usage-check-only -- javac BRCA_example.java". 
+For example, inside the [Benchmark](./Benchmark]) folder: "infer -g --data-usage-check-only -- javac BRCA_example.java". 
